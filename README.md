@@ -1,6 +1,10 @@
 ## 说明
 实现负载均衡算法,提供多种方案
 
+## 安装方式
+```
+go get -u github.com/ebar-go/loadbalance
+```
 ### 加权轮训调度算法(WeightRoundLoader)
 具体原理请百度,实现方式看源码，以下是示例:
 ```go
